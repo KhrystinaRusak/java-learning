@@ -13,6 +13,8 @@ public class Day {
             System.out.println("День");
         } else if (hours >= 16 && hours < 22) {
             System.out.println("Вечер");
-        } else System.out.println("Ночь");
+        } else if ((hours >= 22 && hours < 24) || (hours >= 0 && hours < 6)) {
+            System.out.println("Ночь");
+        } else System.out.println("Неккоректные данные");
     }
 }

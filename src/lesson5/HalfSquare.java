@@ -21,9 +21,9 @@ public class HalfSquare {
         System.out.println(Arrays.deepToString(newMas));
 
         newMas[0] = mas;
-        for(int i = 0; i < newMas[1].length;i++){
+        //for(int i = 0; i < newMas[1].length;i++){
             for(int i = 0; i < newMas[1].length;i++)
             newMas[1][i] = newMas[0][i] + newMas[0][i+1];
-        }
+        //}
     }
 }

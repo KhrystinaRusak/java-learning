@@ -12,7 +12,7 @@ public class CreditManager {
         System.out.println();
 
         creditCard1.addSum(100);
-        creditCard1.addSum(50);
+        creditCard2.addSum(50);
         creditCard3.subtractSum(45);
         System.out.println(creditCard1.toString());
         System.out.println(creditCard2.toString());
